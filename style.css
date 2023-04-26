@@ -1,0 +1,144 @@
+
+.wrapper{
+    display: grid;
+    gap: 3px;
+    float: left;
+    width: 98vw;
+    height: 98vh;
+    margin: 0;
+    grid-template-areas:
+    "A   A   A   B"
+    "C   D   E   B"
+    "F   F   E   B"
+    "G   G   G   G";
+    grid-template-rows: 29% 20% 29% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.item1{
+    background-color: #5b9ad4;
+    border: 1px solid lightgray;
+    grid-area: A;
+    padding: 4v, 2v;
+    vertical-align: middle;
+    text-align: center;
+}
+.item2{
+    background-color: #6e7d81;
+    border: 1px solid lightgray;
+    grid-area: B;
+    padding: 4v, 2v;
+    vertical-align: middle;
+    text-align: center;
+}
+.item3{
+    background-color: #5bd0d0;
+    border: 1px solid lightgray;
+    grid-area: C;
+    padding: 4v, 2v;
+    vertical-align: middle;
+    text-align: center;
+}
+.item4{
+    background-color: #e06b6b;
+    border: 1px solid lightgray;
+    grid-area: D;
+    padding: 4v, 2v;
+    vertical-align: middle;
+    text-align: center;
+}
+.item5{
+    background-color: #fdbf01;
+    border: 1px solid lightgray;
+    grid-area: E;
+    padding: 4v, 2v;
+    vertical-align: middle;
+    text-align: center;
+}
+.item6{
+    background-color: #31a375;
+    border: 1px solid lightgray;
+    grid-area: F;
+    padding: 4v, 2v;
+    vertical-align: middle;
+    text-align: center;
+}
+.item7{
+    background-color: #c45a11;
+    border: 1px solid lightgray;
+    grid-area: G;
+    padding: 4v, 2v;
+    vertical-align: middle;
+    text-align: center;
+}
+.image {
+    width: 150px;
+    height: 190px;
+    margin-bottom: 20px;
+
+}
+
+/* Розмір екрану менше 500px */
+@media only screen and (max-width: 500px) {
+    .wrapper {
+        grid-template-areas:
+        "A A A A"
+        "B B B B"
+        "C C C C"
+        "D D E E"
+        "F F G G";
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+/* Розмір екрану від 500px до 749px */
+@media only screen and (min-width: 500px) and (max-width: 749px) {
+    .wrapper {
+        grid-template-areas:
+        "A A A B"
+        "C D E B"
+        "F F E B"
+        "G G G G";
+        grid-template-rows: 25% 30% 30% 15%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+/* Розмір екрану від 750px до 949px */
+@media only screen and (min-width: 750px) and (max-width: 949px) {
+    .wrapper {
+        grid-template-areas:
+        "A A A B"
+        "C D E B"
+        "F F E B"
+        "G G G G";
+        grid-template-rows: 25% 35% 30% 10%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+/* Розмір екрану від 950px до 1199px */
+@media only screen and (min-width: 950px) and (max-width: 1199px) {
+    .wrapper {
+        grid-template-areas:
+        "A A A B"
+        "C D E B"
+        "F F E G"
+        "G G G G";
+        grid-template-rows: 25% 35% 30% 10%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+/* Розмір екрану 1200px і більше */
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+        grid-template-areas:
+        "A A A B"
+        "C D E B"
+        "F F E G"
+        "G G G G";
+        grid-template-rows: 29% 20% 29% 20%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
