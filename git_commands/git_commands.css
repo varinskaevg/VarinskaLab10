@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    background-color: #41a3f4;
+    display: flex;
+    border-bottom: 2px solid #606060;
+    box-shadow: 0 1px 0 red;
+    font-family: Calibri, serif;
+}
+
+.text {
+    font-size: 5vh;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.text2{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 3vh;
+}
+
+
+.menu {
+    padding: 2.8vh 1vw 3.2vh 1vw;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    text-align: right;
+    word-spacing: 20px;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.silca {
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: flex;
+}
+.dive{
+    margin: 2vh 2vw auto 4vw;
+    width: 18vw;
+}
+.onename{
+    font-size: 3.2vh;
+    color: #64aaca;
+}
+.twoname{
+    font-size: 3.2vh;
+    color: #48819f;
+    margin-top: 2vh;
+}
+.threename{
+    font-size: 3.2vh;
+    color: #8cc33a;
+}
+.fourname{
+    font-size: 3.2vh;
+    color: #6d9d2e;
+}
+.fivename{
+    font-size: 3.2vh;
+    color: #ec602d;
+}
+.sixname{
+    font-size: 3.2vh;
+    color: #b54219;
+    margin-top: 2vh;
+}
+p{
+    font-size: 2vh;
+    margin-top: 1vh;
+    text-align: justify;
+    color: #606060;
+}
+b{
+    font-weight: bold;
+}
+footer{
+    background-color: #263137;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 9vh;
+    text-align: center;
+    display: block;
+}
+.prav{
+    color: #a9a9a9;
+    margin-top: 2.5vh;
+    font-size: 2vh;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="git_commands.css">
+</head>
+<body>
+<header class="container menu1">
+    <div>
+        <div class="text">
+            Мій особистий блог
+        </div>
+        <div class="text2">
+            Варинська Євгенія
+        </div>
+        <div class="menu">
+          <span><a href="#" class="silca">
+          Вхід
+          </a></span>
+            <span><a href="#" class="silca">
+          Авторизація
+          </a></span>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="dive">
+    <h1 class="onename">Create a Repository</h1>
+        <p>From scratch-Create a new local repository</p>
+        <b>$ git init [project name]</b>
+        <p>Download from an existing repository</p>
+        <b>$ git clone my_url</b>
+        <h1 class="twoname">Observe your Repository</h1>
+        <p>List new or modified files not yet committed</p>
+        <b>$ git status</b>
+        <p>Show the changes to files not yet staged</p>
+        <b>$ git diff</b>
+        <p>Show the changes to staged files</p>
+        <b>$ git diff --cached</b>
+        <p>Show all staged and unstaged file changes</p>
+        <b>$ git diff HEAD</b>
+        <p>Show the changes between two commitids</p>
+        <b>$ git diff commit1 commit2</b>
+        <p>List the change dates and authors for a file</p>
+        <b>$ git blame [file]</b>
+        <p>Show the file changes for a commit id and/or fie</p>
+        <b>$ git show [commit]:[file]</b>
+        <p>Show full change history</p>
+        <b>$ git log</b>
+        <p>Show change history for fle/directory including diffs</p>
+        <b>$ git log -p (file/directory]</b>
+    </div>
+    <div class="dive">
+        <h1 class="threename">Working with Branches</h1>
+        <p>List all local branches</p>
+        <b>$ git branch</b>
+        <p>List all branches, local and remote</p>
+        <b>List all branches, local and remote</b>
+        <p>Switch to a branch, my branch, and update working directory</p>
+        <b>$ git checkout my branch</b>
+        <p>Create a new branch called new branch</p>
+        <b>$ git branch new branch</b>
+        <p>Delete the branch called my branch</p>
+        <b>$ git branch -d my branch</b>
+        <p>Merge branch, a into branch b</p>
+        <b>$ git checkout branch b
+            $ git merge branch_a</b>
+        <p>Tag the current commit</p>
+        <b>Tag the current commit</b>
+    </div>
+    <div class="dive">
+        <h1 class="fourname">Make a change</h1>
+        <p>Stages the file, ready for commit</p>
+        <b>$ git add [file]</b>
+        <p>Stage all changed files, ready for commit</p>
+        <b>$ git add</b>
+        <p>Commit all staged files to versioned history</p>
+        <b>$ git commit - "commit message"</b>
+        <p>Commit all your tracked files to versioned history</p>
+        <b>$ git commit -an "commit message"</b>
+        <p>Unstages file, keeping the file changes</p>
+        <b>$ git reset [file]</b>
+        <p>Revert everything to the last commit</p>
+        <b>$ git reset-hard</b>
+    </div>
+    <div class="dive">
+        <h1 class="fivename">Synchronize</h1>
+        <p>Get the latest changes from origin (no merge)</p>
+        <b>$ git fetch</b>
+        <p>Fetch the latest changes from origin and merge</p>
+        <b>$ git pull</b>
+        <p>Fetch the latest changes from origin and rebase</p>
+        <b>$ git pull rebase</b>
+        <p>Push local changes to the origin</p>
+        <b>$ git push</b>
+        <h1 class="sixname">Finally!</h1>
+        <p>When in doubt, use git help</p>
+        <b>$ git command --help</b>
+        <br><br>
+        <p>Or visit <a href="https://training.github.com/">https://training.github.com/</a> for official GitHub training</p>
+    </div>
+</main>
+<footer>
+    <div class="prav">
+        © Всі права захищені
+        <br>
+        Розробник: студентка групи 102-ТК Варинська Є.О.
+    </div>
+</footer>
+</body>
+</html>
